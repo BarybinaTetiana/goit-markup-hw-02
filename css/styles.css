@@ -1,4 +1,11 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #212121;
 }
 
+.header {
+    
+}
+.list {
+    list-style: none;
+}
