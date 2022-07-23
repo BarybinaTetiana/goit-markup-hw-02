@@ -4,8 +4,109 @@ body {
 }
 
 .header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
     
 }
+
+.header-logo {
+    color: #000000;
+ }
 .list {
     list-style: none;
+}
+
+.logo {
+
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.19;
+
+    color: #2196F3;
+}
+
+
+.link {
+    color: #212121;
+}
+.link:hover,
+.link:focus {
+    color: #2196F3;
+}
+
+ .footer {
+    color: #FFFFFF;
+    background-color: #2F303A;
+ }
+
+ .footer-logo {
+    color: #FFFFFF;
+
+ }
+
+
+/* Hero */
+.hero {
+    font-size: 44px;
+    line-height: 1.36;  
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+  
+/* Особенности */
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+
+  .qualities-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+  }
+
+    .qualities-text {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+
+.section-title {
+    color: #212121;
+
+}
+
+button {
+    font-family: inherit;
 }
