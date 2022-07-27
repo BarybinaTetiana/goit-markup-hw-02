@@ -8,18 +8,14 @@
     --hero-var-background-color:#188CE8;
     --footer-contacts-color: rgba(255, 255, 255, 0.6);
     --primary-bg-color: #F5F4FA;
-    --second-background-color: #E5E5E5;
     --header-background-color: #FFFFFF;
     
-
-
 }
 
 
 body {
     font-family: Roboto, sans-serif;
     color: var(--title-text-color);
-    background-color: var(--second-background-color);
     letter-spacing: 0.03em;
      
 }
@@ -37,6 +33,7 @@ ul {
     background-color: var(--header-background-color);
      
 }
+
 .logo {
     font-family: Raleway, sans;
     font-size: 26px;
@@ -91,13 +88,10 @@ ul {
 
 .hero-btn {
     font-weight: 700;
-    font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
+    font-family: inherit;
 
 
     background-color: var(--accent-color);
@@ -124,7 +118,7 @@ ul {
 
 .qualities-title {
     font-size: 14px;
-    line-height: 11.14;
+    line-height: 1.14;
     text-transform: uppercase;
   }
 
@@ -136,12 +130,9 @@ ul {
 
 /* Section */
 
-.section {
-    background-color: var(--second-background-color);
-}
+
 
 .section-title {
-    font-weight: 500;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -154,13 +145,11 @@ ul {
 
 .team-name {
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.19;
     text-align: center;
 }
 
 .team-prof {
-    font-size: 16px;
     line-height: 1.19;
     text-align: center;
 
@@ -181,7 +170,9 @@ ul {
 
  }
 
- .footer-adress .link {
+ .footer-adress .link,
+ .footer-contacts  {
+    
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -191,14 +182,8 @@ ul {
  }
 
  .footer-contacts  {
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    font-style: normal;
     color: var(--footer-contacts-color);
-    text-decoration: none;
  }
-
 
 /* Buttons */
 
@@ -208,24 +193,28 @@ ul {
     font-family: inherit;
 
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.63;
     text-align: center;
     cursor: pointer;
 }
-
-.button.primary {
+.button:hover,
+.button:focus {
     background-color: var(--accent-color);
     color: var(--hero-color);
-    
-    
+
 }
 
-.button.secondary {
+    /* .button.primary {
+        background-color: var(--accent-color);
+        color: var(--hero-color);
+    
+    } */
+
+/* .button.secondary {
     background-color: var(--primary-bg-color);
     color: var(--title-text-color);
     
-}
+} */
 
 .portfolio .link {
     color: var(--title-text-color);
@@ -242,7 +231,6 @@ ul {
 }
 
 .portfolio-item {
-    font-size: 16px;
     line-height: 1.88;
     color: var(--primary-text-color);
 }
